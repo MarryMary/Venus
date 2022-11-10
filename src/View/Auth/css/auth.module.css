@@ -1,0 +1,84 @@
+.auth_body {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 10vh;
+    background-image: linear-gradient(90deg, rgba(168, 202, 240, 1), rgba(233, 240, 250, 1));
+}
+
+.auth_card{
+    background: #ffff;
+    margin: auto;
+    padding: 1vh;
+    width: 40vw;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.auth_card h1{
+    font-size: 5vh;
+}
+
+.form{
+    margin-top: 5vh;
+}
+
+.form_parts label{
+    display: block;
+    font-size: 2vh;
+}
+
+.form_parts input{
+    border: 1px solid #D3D3D3;
+    border-radius: 1vh;
+    height: 4vh;
+    width: 30vw;
+    text-align: center;
+    margin: 1vh;
+    font-size: 2vh;
+}
+
+.auth_card button{
+    border: none;
+    background: #87CEEB;
+    width: 20vw;
+    height: 4vh;
+    margin: 1vh;
+    border-radius: 3vh;
+    font-size: 2vh;
+}
+
+.auth_card button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 480px) {
+    .auth_card{
+        background: #ffff;
+        margin: auto;
+        padding: 1vh;
+        width: 70vw;
+        text-align: center;
+        border-radius: 30px;
+    }
+
+    .form_parts input{
+        border: 1px solid #D3D3D3;
+        border-radius: 1vh;
+        height: 4vh;
+        width: 50vw;
+        text-align: center;
+        margin: 1vh;
+        font-size: 2vh;
+    }
+
+    .auth_card button{
+        border: none;
+        background: #87CEEB;
+        width: 30vw;
+        height: 4vh;
+        margin: 1vh;
+        border-radius: 3vh;
+        font-size: 2vh;
+    }
+}

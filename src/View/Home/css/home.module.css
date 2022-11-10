@@ -1,0 +1,84 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #87CEEB;
+    padding: 1vh;
+}
+
+.nav_title{
+    font-size: 3vh;
+}
+
+.navbar_btn{
+    font-size: 2vh;
+}
+
+.navbar_btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.all_menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vh;
+}
+
+.menu{
+    border: 1px solid #DCDCDC;
+    padding: 1vh;
+    width: 30vw;
+    height: fit-content;
+}
+
+.menu_header{
+    font-size: 3vh;
+}
+
+.menu_list{
+    list-style: none;
+}
+
+ul{
+    list-style-position: inside;
+}
+
+.todo_list li{
+    font-size: 2vh;
+}
+
+.menu_list li{
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.room_details{
+    margin: 1vh;
+}
+
+.room_details:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.room_details p{
+    font-size: 2vh;
+}
+
+.room_details small{
+    font-size: 1.5vh;
+}
+
+@media screen and (max-width: 480px) {
+    .all_menu{
+        display: block;
+        justify-content: start;
+        padding: 3vh;
+    }
+
+    .menu{
+        border: 1px solid #DCDCDC;
+        padding: 1vh;
+        margin-bottom: 3vh;
+        width: 80vw;
+    }
+}
